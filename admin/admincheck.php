@@ -1,15 +1,15 @@
 <?php
-//Athuga hvort innskráður notandi sé Vefstjóri.
+//Athuga hvort innskrÃ¡Ã°ur notandi sÃ© VefstjÃ³ri.
 
-$admin = "admin/current"; //skráin sem inniheldur nafn Vefstjóra
-$file = fopen($admin, 'r') or die("Skra finnst ekki!."); //leitar af skrá
-$current = fread($file, filesize($admin)); //les inn skrá í variable sem heitir 'current'
-fclose($file); //lokar skrá
-$vefstjori = strtolower($current); //setur nafn Vefstjóra í variable sem heitir 'vefstjori'
-$notandi=strtolower($_SESSION['username']); //setur nafnið á innskráðum notanda í variable sem kallast 'notandi'
-$nafn= ucfirst($notandi); //setur fyrsta stafinn í nafninu í uppercase
+$admin = "admin/current"; //skrÃ¡in sem inniheldur nafn vefstjÃ³ra
+$file = fopen($admin, 'r') or die("Skra finnst ekki!."); // leitar aÃ° skrÃ¡
+$current = fread($file, filesize($admin)); //les inn skrÃ¡ Ã­ variable sem heitir 'current'
+fclose($file); //lokar skrÃ¡
+$vefstjori = strtolower($current); // setur nafn vefstjÃ³ra Ã­ variable sem heitir 'vefstjori'
+$notandi=strtolower($_SESSION['username']); //setur nafniÃ° Ã¡ innskrÃ¡Ã°um notanda Ã­ variable sem kallast 'notandi'
+$nafn= ucfirst($notandi); //setur fyrsta stafinn Ã­ nafninu Ã­ uppercase
 
-//#Athuga hvort innskráður notandi sé Vefstjóri.
+//#Athuga hvort innskrÃ¡Ã°ur notandi sÃ© vefstjÃ³ri.
 ?>
 
 
