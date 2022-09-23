@@ -1,13 +1,13 @@
 <?php
 
  /*** mysql server ***/
-    $mysql_hostname = '37.148.204.139';
+    $mysql_hostname = 'localhost';
 
     /*** mysql notandi ***/
-    $mysql_username = 'myndaskurinn01';
+    $mysql_username = 'root';
 
     /*** mysql lykilord ***/
-    $mysql_password = 'UPEa7pBS@';
+    $mysql_password = '';
 
     /*** gagnagrunns nafn ***/
     $mysql_dbname = 'myndaskurinn01';

@@ -1,6 +1,6 @@
 <?php
 $db="myndaskurinn01";
-$mysqli = new mysqli("37.148.204.139","myndaskurinn01","UPEa7pBS@");
+$mysqli = new mysqli("root","myndaskurinn01","");
 
 if ($mysqli -> connect_errno) {
   echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
