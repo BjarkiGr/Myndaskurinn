@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: text/html; charset=UTF-8');
 // startar session
-session_start();
+
 			//echo "<br>";
 // athugar ef notandi er nú þegar loggaður inn
 if(isset( $_SESSION['user_id'] ))
