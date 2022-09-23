@@ -1,11 +1,11 @@
 <?php
 $db="myndaskurinn01";
-$con = mysql_connect("37.148.204.139","myndaskurinn01","UPEa7pBS@");
+$mysqli = new mysqli("37.148.204.139","myndaskurinn01","UPEa7pBS@");
 if (!$con)
   {
 
-  die('Could not connect: ' . mysql_error());
+  die('Could not connect: ' . mysqli_error());
   }
 
-mysql_select_db($db, $con);
+$mysqli -> select_db("myndaskurinn01");
 ?>
